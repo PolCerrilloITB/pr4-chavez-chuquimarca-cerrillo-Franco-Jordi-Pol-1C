@@ -14,4 +14,3 @@ for x in range(8, 0, -1):
             print("⬛️", end="")
     print()
 print(" a", "b", "c", "d", "e", "f", "g", "h")
-a
