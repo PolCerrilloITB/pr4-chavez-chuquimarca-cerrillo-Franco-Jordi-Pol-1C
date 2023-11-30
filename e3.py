@@ -7,23 +7,12 @@ de tots els nombres parells inferiors a un número límit, que l’usuari introd
 ( Ex: si el límit és 31 sumaParells 240 i sumaSenars 225)
 """
 limite = int(input())
-nPares = 0
-nImpares = 0
-l = 1
 sPares = 0
 sImpares = 0
-sP = 1
-sI = 1
-for limite in range(1,limite+1):
-    if l%2 == 0:
-         nPares += 1
-    elif l%2 != 0:
-         nImpares += 1
-    l += 1
-for nPares in range(1, nPares+1, 2):
-    sPares = sPares + sP
-    sP += 2
-for nImpares in range(1, nImpares+1, 2):
-    sImpares = sImpares + sI
-    sI += 2
+for n in range(1, limite):
+    if n % 2 == 0:
+         sPares += n
+    else:
+         sImpares += n
+print(sPares)
 print(sImpares)
