@@ -9,7 +9,7 @@ contPos = 0
 contNeg = 0
 contZer = 0
 for i in range(10):
- nSencers = int(input("Donam 1 numeros sencers: "))
+ nSencers = int(input("Donam 1 numero sencer: "))
  if nSencers > 0:
   contPos = contPos + 1
  elif nSencers < 0:
