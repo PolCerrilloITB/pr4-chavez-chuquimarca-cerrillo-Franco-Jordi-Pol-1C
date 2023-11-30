@@ -13,3 +13,5 @@ for x in range(8):
        else:
            print ("⬛️", end="")
    print ()
+
+   h
