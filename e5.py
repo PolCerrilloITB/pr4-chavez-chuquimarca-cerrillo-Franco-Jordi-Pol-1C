@@ -14,4 +14,4 @@ for e in range(1, y+1):
     if apoyo == 0:
         apoyo += 1
 print(sumaT)
-wejfiowergerger
+wejfiowergergerfqewe
