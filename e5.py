@@ -9,7 +9,7 @@ x = int(input())
 y = int(input())
 sumaT = x
 apoyo = 0
-for e in range(1, y+1):
+for n in range(1, y+1):
     sumaT = sumaT + x * apoyo
     if apoyo == 0:
         apoyo += 1
